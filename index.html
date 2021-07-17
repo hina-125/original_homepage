@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <!-- Required meta tags -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+        <title>Hair Salon</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <!--ここからヘッダー-->
+        <header>
+        </header>
+        <!--ヘッダーここまで-->
+        <!--ここからメインビジュアル画像-->
+        <div class="main_visual">
+          <img src="img/4194787_s.jpg" alt="スライド画像1枚目">
+          <img src="img/112303_s.jpg" alt="スライド画像2枚目">
+          <img src="img/4318565_s.jpg" alt="スライド画像3枚目">
+          <img src="img/4494193_s.jpg" alt="スライド画像4枚目">
+          <img src="img/3503478_s.jpg" alt="スライド画像5枚目">
+        </div>
+        <!--メインビジュアル画像ここまで-->
+        <!--wrapperー-->
+          <div class="wrapper">
+            <div class="basic">
+            <h2>Hair salon</h2>
+              <ul>
+                <li>電話番号</li>
+                <li>住所</li>
+              </ul>
+            </div>
+            <!--ここからメイン-->
+            <div class="main">    
+                  <div class="content fadein">
+                          <div class="concept">
+                            <h3>CONCEPT</h3>
+                            <img src="img/3503524_s.jpg" alt="コンセプト画像">
+                            <p>
+                             より美しく、より輝く笑顔に。<br>
+                             お客様のスタイルを追求し、ご提案いたします。
+                            </p>
+                          </div>
+                  </div>
+                  <div class="content fadein">
+                          <div class="menu">
+                            <h3>MENU</h3>
+                            <ul>
+                              <li>CUT    5,000円</li>
+                              <li>COLOR　6,000円</li>
+                              <li>PERM　 6,000円</li>
+                              <li>TREATMENT　3,000円</li>
+                            </ul>
+                          </div>
+                  </div>
+                  <div class="content fadein"> 
+                          <div class="information">
+                            <h3>INFORMATION</h3>
+                            <ul>
+                              <li>電話番号</li>
+                              <li>住所</li>
+                              <li>アクセス</li>
+                            </ul>
+                          </div>
+                  </div>
+                  <!--ここからmap-->
+　　　　　　　　　<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+                    
+                  <div id="map"></div>
+
+                  <script
+                    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBTuMKPf1Dho0_gzY2HHxVc50bKgBYxfAc&callback=initMap&libraries=&v=weekly"
+                    async
+                  ></script>
+                  <!--mapここまで-->
+
+                  
+                  <div class="cal_wrapper">
+                  <div class="googlecal">
+                    <iframe src="https://calendar.google.com/calendar/embed?height=450&amp;wkst=1&amp;bgcolor=%23dad6ff&amp;ctz=Asia%2FTokyo&amp;src=N2hoZnJnMGJ0Yjh0aHBzNmNrYmw3bjdoNDBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=amEuamFwYW5lc2UjaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%23F6BF26&amp;color=%230B8043&amp;showTz=0&amp;showCalendars=0&amp;showPrint=0&amp;showTabs=0&amp;title=%E5%AE%9A%E4%BC%91%E6%97%A5%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B" style="border-width:0" width="500" height="450" frameborder="0" scrolling="no"></iframe>
+                  </div>
+                  </div>
+            </div>
+            <!--メインここまで-->
+          </div>
+        <!--wrapperここまで
+        
+        <!-- トップに戻るボタン -->
+        <a href="#" class="back-to-top">▲</a>
+        
+        <!--ここからフッター-->
+        <footer>
+            <small>&copy; 2021 Hina K.</small>
+        </footer>
+        <!--フッターここまで-->
+        
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+        <!--JSを読み込み-->
+        <script src="main.js"></script>
+    </body>
+</html>
